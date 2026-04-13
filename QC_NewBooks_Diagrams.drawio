@@ -180,10 +180,34 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Vq9mXZhr7xZhFgCkSqDs" name="Part B - ERD">
-    <mxGraphModel dx="860" dy="465" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="860" dy="465" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="MvjRDn5uuuWTWv7ZEEOr-1" parent="1" style="text;whiteSpace=wrap;html=1;fontStyle=1;fontSize=20;fontFamily=Times New Roman;" value="&lt;span style=&quot;color: rgb(0, 245, 255); font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgba(0, 245, 255, 0.08); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;QC NewBooks — Database Structure&lt;/span&gt;" vertex="1">
+          <mxGeometry height="40" width="360" x="370" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MvjRDn5uuuWTWv7ZEEOr-2" parent="1" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;gradientColor=none;swimlaneFillColor=light-dark(default, #121111);fontFamily=Times New Roman;" value="Transactions" vertex="1">
+          <mxGeometry height="206" width="170" x="330" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="MvjRDn5uuuWTWv7ZEEOr-10" parent="MvjRDn5uuuWTWv7ZEEOr-2" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" value="id&amp;nbsp;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;SERIAL (PK)&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="170" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="MvjRDn5uuuWTWv7ZEEOr-9" parent="MvjRDn5uuuWTWv7ZEEOr-2" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" value="trans_date&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;DATE" vertex="1">
+          <mxGeometry height="30" width="170" y="56" as="geometry" />
+        </mxCell>
+        <mxCell id="MvjRDn5uuuWTWv7ZEEOr-8" parent="MvjRDn5uuuWTWv7ZEEOr-2" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" value="amount&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;NUMERIC(12,2)" vertex="1">
+          <mxGeometry height="30" width="170" y="86" as="geometry" />
+        </mxCell>
+        <mxCell id="MvjRDn5uuuWTWv7ZEEOr-7" parent="MvjRDn5uuuWTWv7ZEEOr-2" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" value="debit_acc&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;TEXT" vertex="1">
+          <mxGeometry height="30" width="170" y="116" as="geometry" />
+        </mxCell>
+        <mxCell id="MvjRDn5uuuWTWv7ZEEOr-6" parent="MvjRDn5uuuWTWv7ZEEOr-2" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" value="credit_acc&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;TEXT" vertex="1">
+          <mxGeometry height="30" width="170" y="146" as="geometry" />
+        </mxCell>
+        <mxCell id="MvjRDn5uuuWTWv7ZEEOr-3" parent="MvjRDn5uuuWTWv7ZEEOr-2" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" value="credit_id&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;INTEGER (FK)" vertex="1">
+          <mxGeometry height="30" width="170" y="176" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
