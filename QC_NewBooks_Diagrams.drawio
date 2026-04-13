@@ -95,6 +95,27 @@
             <mxPoint x="510" y="270" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="GqqABsmJ-TvPd1rq8VoG-35" parent="1" style="rhombus;whiteSpace=wrap;html=1;strokeColor=light-dark(#000000,#FF9999);fillColor=light-dark(#FFFFFF,#000000);" value="&lt;b&gt;Do Total Credit&amp;nbsp;&lt;/b&gt;&lt;div&gt;&lt;b&gt;Equal Total Debit&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="160" x="343" y="747" as="geometry" />
+        </mxCell>
+        <mxCell id="GqqABsmJ-TvPd1rq8VoG-36" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeColor=light-dark(#000000,#FF9999);" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="422" y="830" as="sourcePoint" />
+            <mxPoint x="422" y="920" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GqqABsmJ-TvPd1rq8VoG-37" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Yes&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; white-space: nowrap;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20edge%3D%221%22%20parent%3D%221%22%20style%3D%22endArrow%3Dclassic%3Bhtml%3D1%3Brounded%3D0%3BstrokeColor%3Dlight-dark(%23000000%2C%23FF9999)%3B%22%20value%3D%22%22%3E%3CmxGeometry%20height%3D%2250%22%20relative%3D%221%22%20width%3D%2250%22%20as%3D%22geometry%22%3E%3CmxPoint%20x%3D%22425%22%20y%3D%22470%22%20as%3D%22sourcePoint%22%2F%3E%3CmxPoint%20x%3D%22425%22%20y%3D%22560%22%20as%3D%22targetPoint%22%2F%3E%3C%2FmxGeometry%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="415" y="870" as="geometry" />
+        </mxCell>
+        <mxCell id="GqqABsmJ-TvPd1rq8VoG-38" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeColor=light-dark(#000000,#FF9999);entryX=1;entryY=0.75;entryDx=0;entryDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="509" y="782.23" as="sourcePoint" />
+            <mxPoint x="599" y="781" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GqqABsmJ-TvPd1rq8VoG-39" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;No&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="41" x="541" y="760" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
