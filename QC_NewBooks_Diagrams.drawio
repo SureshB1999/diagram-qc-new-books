@@ -188,7 +188,7 @@
           <mxGeometry height="40" width="360" x="370" y="50" as="geometry" />
         </mxCell>
         <mxCell id="MvjRDn5uuuWTWv7ZEEOr-2" parent="1" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;gradientColor=none;swimlaneFillColor=light-dark(default, #121111);fontFamily=Times New Roman;" value="Transactions" vertex="1">
-          <mxGeometry height="206" width="170" x="330" y="180" as="geometry" />
+          <mxGeometry height="206" width="170" x="47" y="180" as="geometry" />
         </mxCell>
         <mxCell id="MvjRDn5uuuWTWv7ZEEOr-10" parent="MvjRDn5uuuWTWv7ZEEOr-2" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" value="id&amp;nbsp;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;SERIAL (PK)&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="30" width="170" y="26" as="geometry" />
@@ -207,6 +207,18 @@
         </mxCell>
         <mxCell id="MvjRDn5uuuWTWv7ZEEOr-3" parent="MvjRDn5uuuWTWv7ZEEOr-2" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" value="credit_id&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;INTEGER (FK)" vertex="1">
           <mxGeometry height="30" width="170" y="176" as="geometry" />
+        </mxCell>
+        <mxCell id="MvjRDn5uuuWTWv7ZEEOr-15" parent="1" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;gradientColor=none;swimlaneFillColor=light-dark(default, #121111);fontFamily=Times New Roman;" value="Clients" vertex="1">
+          <mxGeometry height="116" width="170" x="281" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="MvjRDn5uuuWTWv7ZEEOr-17" parent="MvjRDn5uuuWTWv7ZEEOr-15" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" value="id&amp;nbsp;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;SERIAL(PK)" vertex="1">
+          <mxGeometry height="30" width="170" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="MvjRDn5uuuWTWv7ZEEOr-18" parent="MvjRDn5uuuWTWv7ZEEOr-15" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" value="client_name&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;TEXT&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="170" y="56" as="geometry" />
+        </mxCell>
+        <mxCell id="MvjRDn5uuuWTWv7ZEEOr-25" parent="MvjRDn5uuuWTWv7ZEEOr-15" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" value="email&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;TEXT" vertex="1">
+          <mxGeometry height="30" width="170" y="86" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
