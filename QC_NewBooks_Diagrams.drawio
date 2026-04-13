@@ -116,6 +116,9 @@
         <mxCell id="GqqABsmJ-TvPd1rq8VoG-39" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;No&lt;/b&gt;" vertex="1">
           <mxGeometry height="30" width="41" x="541" y="760" as="geometry" />
         </mxCell>
+        <mxCell id="GqqABsmJ-TvPd1rq8VoG-40" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=light-dark(#000000,#FF9999);fillColor=default;gradientColor=none;gradientDirection=radial;dashed=1;" value="&lt;b&gt;Error: Out of Balance&lt;/b&gt;" vertex="1">
+          <mxGeometry height="40" width="130" x="602" y="760" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
